@@ -1,3 +1,3 @@
 void helloFunction(String str) {
-    print("Hello Holberton from dart\n");
+    print('Hello Holberton from dart');
 }
