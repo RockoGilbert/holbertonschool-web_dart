@@ -29,12 +29,13 @@ class User {
     );
   }
 
+  @override
   toString() async {
     return 'User(name: $name, age: $age, height: $height, id: $id)';
   }
-}
 
-void main() {
-  final user = User(name: "Youssef", age: 25, height: 1.89, id: 1);
-  print(user.toJson());
+  void main() {
+    final user = User(name: "Youssef", age: 25, height: 1.89, id: 1);
+    print(user.toJson());
+  }
 }
