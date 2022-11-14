@@ -2,7 +2,7 @@ class User {
   String name;
   int age;
   double height;
-  int id = 0;
+  int id;
   // Add a new property id to toJson() method
 
   User(
@@ -13,10 +13,10 @@ class User {
 
   Map toJson() {
     return {
-      'id': id,
-      'name': name,
-      'age': age,
-      'height': height,
+      'id': this.id,
+      'name': this.name,
+      'age': this.age,
+      'height': this.height,
     };
   }
 
