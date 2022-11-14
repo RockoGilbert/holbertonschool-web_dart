@@ -3,3 +3,7 @@ String concatStr(String str1, String str2) {
   str2 = "School";
   return str1 + " " + str2;
 }
+
+void main() {
+  print(concatStr("Holberton", "School"));
+}
