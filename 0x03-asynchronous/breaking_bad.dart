@@ -1,4 +1,4 @@
-// Print names returns from API call
+// Print names and returns from API call
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
